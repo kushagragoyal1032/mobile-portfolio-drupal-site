@@ -1,0 +1,95 @@
+html, body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.products-details {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.products-details .left-col {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.products-details .left-col div img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.products-details .right-col {
+  background-image: linear-gradient(to left, #9FA5D5, #E8F5C8);
+  border-left: 2px solid gray;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.products-details .right-col .details {
+  margin-top: 20px;
+}
+.products-details .right-col .details span {
+  font-size: 16px;
+  color: #358ED7;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.products-details .right-col .details .name {
+  font-weight: 300;
+  font-size: 52px;
+  color: #43484D;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-top: 18px;
+  font-weight: 300;
+}
+.products-details .right-col .details .desc {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.products-details .right-col .details .feature div {
+  display: flex;
+  padding: 0 20px;
+  flex-direction: column;
+}
+.products-details .right-col .details .price {
+  display: flex;
+  align-items: center;
+  bottom: 0;
+}
+.products-details .right-col .details .price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: #43474D;
+  margin-right: 20px;
+}
+.products-details .right-col .details .price .avail_check {
+  visibility: hidden;
+}
+.products-details .right-col .details .price .cart-btn {
+  display: inline-block;
+  background-color: #7DC855;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all 0.5s;
+}
+.products-details .right-col .details .price .cart-btn:hover {
+  background-color: #64af3d;
+}
+
+.head {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: red;
+  font-weight: 300;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*# sourceMappingURL=products.css.map */

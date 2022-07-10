@@ -1,0 +1,25 @@
+.site-footer {
+  padding: 35px 0 30px;
+  width: 100%;
+  background: rgb(34, 195, 178);
+  background: linear-gradient(342deg, rgb(34, 195, 178) 0%, rgb(190, 169, 121) 65%, rgb(63, 228, 128) 100%);
+  display: inline-flex;
+  bottom: 0;
+  position: relative;
+}
+.site-footer .footer1 {
+  max-width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 500px;
+}
+.site-footer .footer2 {
+  max-width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.site-footer div {
+  width: 100%;
+}
+
+/*# sourceMappingURL=footer.css.map */

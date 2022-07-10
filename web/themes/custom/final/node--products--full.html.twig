@@ -1,0 +1,39 @@
+<div class=" products-details">
+  <div class="row">
+    <div class="col-md-5 left-col mb-md-0 mb-5">
+      {{content.field_image}}
+    </div>
+    <div class="col-md-7 right-col">
+      <div class="row">
+        <div class="details">
+          <div class="col-12">
+            <span>{{content.field_brand}}</span>
+          </div>
+          <div class="name col-12">
+            {{content.field_product_name}}
+          </div>
+          <div class="col-12">
+            <h5 class="head">Description</h5>
+            <div class="desc">
+              {{content.field_desc}}
+            </div>
+          </div>
+          <br>
+          <div class="col-12 ">
+            <h5 class="head">Features</h5>
+            <div class="feature">
+              {{content.field_features}}
+            </div>
+            <hr>
+          </div>
+          <div class="price col-12 mt-5 mb-3">
+            <span>{{content.field_price}} </span>
+            <!-- <a href="#" class="cart-btn" id="cartbtn">Add to cart</a> -->
+            <a href="https://www.google.com/"><button type="button" value="Add to Cart" class="cart-btn" id="cartbtn">Add to cart</button></a>
+            <div class="avail_check">{{content.field_availability}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+globel-css-theme:
+  css:
+    component:
+      css/header.css: {}
+      css/footer.css: {}
+      css/home.css: {}
+      css/products.css: {}
+      css/aboutus.css: {}
+      css/testimonial.css: {}
+
+globel-custom-js:
+  js:
+      js/home.js: {}
+      js/products.js: {}
+      js/testimonial.js: {}
+  dependencies:
+    - core/jquery
+
+bootstrap-css:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css:
+        {type: external, minified: true}
+
+
+jquery-js:
+  js:
+    https://code.jquery.com/jquery-3.2.1.slim.min.js:
+    https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js:
+      {type: external, minified: true}
+        

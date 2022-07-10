@@ -1,0 +1,18 @@
+<?php
+ /** 
+ * Implements template_preprocess_page().
+ */
+function final_preprocess_page(&$variables) {
+
+    // $query = \Drupal::entityTypeManager()->getStorage('node')->getQuery();
+    // $query->condition('type', 'testimonials');
+    // $query->condition('status', 1);
+    // $query->range(0, 1); // only need one
+    // $results = $query->execute();
+    // $variables['no_of_nodes'] = (bool)count($results);
+    // $variables['no_of_nodes'] = 1;
+    // $variables['fgfd'] = 33;
+
+    $variables['todayDate'] = date('d/m/y');
+
+}
