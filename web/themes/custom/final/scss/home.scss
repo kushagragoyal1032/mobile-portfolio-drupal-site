@@ -1,11 +1,9 @@
 body {
-
-
+    overflow-x: hidden;
     .ds {
         align-items: center;
         justify-content: center;
         display: flex;
-
     }
 
     @media screen and (max-width :500px) {
@@ -25,7 +23,6 @@ body {
     }
 
 }
-
 
 .card-title {
     a {

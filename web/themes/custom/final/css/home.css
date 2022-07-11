@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 body .ds {
   align-items: center;
   justify-content: center;

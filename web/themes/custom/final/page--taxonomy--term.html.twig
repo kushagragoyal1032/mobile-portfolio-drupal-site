@@ -46,10 +46,11 @@
 
 {% include directory ~ '/partials/header.html.twig'%}
 
-<div class="ds">
-        <div class="row my-2 ">
+{# <div class="ds"> #}
+        <div class="cont-container my-2 ">  
+        {# add this "cont-container" to add some col class -> look at home.js #}
           {{ page.content }}
         </div>
-</div>
+{# </div> #}
 
 {% include directory ~ '/partials/footer.html.twig'%}
