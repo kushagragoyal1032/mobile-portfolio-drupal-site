@@ -80,12 +80,10 @@
   </div>
 </header>
 
+<div class="cont-container my-2 ">
+  {# add this "cont-container" to add some col class -> look at home.js #}
+  {{ page.content }}
+</div>
 
-{# <div class="ds"> #}
-        <div class="cont-container my-2 ">
-        {# add this "cont-container" to add some col class -> look at home.js #}
-          {{ page.content }}  
-        </div>
-{# </div> #}
 
 {% include directory ~ '/partials/footer.html.twig'%}

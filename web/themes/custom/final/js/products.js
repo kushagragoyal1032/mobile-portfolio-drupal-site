@@ -1,4 +1,3 @@
-console.log("this ipro");
 
 const ele = document.getElementsByClassName("avail_check");
 let button = document.getElementById("cartbtn");
